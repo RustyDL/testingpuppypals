@@ -3,7 +3,7 @@
  */
 
 import { render, screen, fireEvent } from "@testing-library/react";
-import App from "./App";
+import App from "../src/App";
 import "@testing-library/jest-dom";
 
 describe("App component", () => {

@@ -1,7 +1,7 @@
-import { puppyList } from "./data";
+import { puppyList } from "../src/data";
 import { useState } from "react";
 
-import "./App.css";
+import "../src/App.css";
 
 function App() {
   const [puppies, setPuppies] = useState(puppyList);
